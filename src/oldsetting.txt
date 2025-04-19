@@ -4,7 +4,7 @@
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "ms-python.black-formatter",
-  
+
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
@@ -15,7 +15,7 @@
 
   "python.formatting.provider": "autopep8",  // Autopep8 en tant que formateur secondaire
   "python.formatting.autopep8Args": ["--max-line-length", "79"], // Limite de longueur de ligne de PEP 8
-  
+
   "python.linting.enabled": true,  // Active le linting
   "python.linting.flake8Enabled": true,  // Active Flake8 pour détecter les erreurs de style
   "python.linting.flake8Args": [
@@ -39,5 +39,5 @@
     "llm": "core",
     "references": "docs",
     "modeling": "generator"
-  }, 
+  },
 }
