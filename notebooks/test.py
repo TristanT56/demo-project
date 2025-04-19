@@ -1,13 +1,64 @@
-def my_function(x, y):
-    if x > y:
-        print("x est plus grand que y")
-    else:
-        print("x est plus petit ou égal à y")
+# pip install pandas
+import pandas as pd
 
+data = {
+    "name": ["Alice", "Bob", "Charlie"],
+    "age": [25, 30, 35],
+    "city": ["New York", "Los Angeles", "Chicago"],
+}
 
-def another_function(z):
-    print(f"La valeur de z est: {z}")
+list = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+]
 
-
-for i in range(10):
-    print(i)
+df = pd.DataFrame(data)
+df.head(1)
