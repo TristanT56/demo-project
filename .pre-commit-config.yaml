@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.3.4  # dernière version stable connue
+    hooks:
+      - id: ruff
+        args: [--fix]  # active la correction automatique
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0  # dernière version à jour en 2025
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
